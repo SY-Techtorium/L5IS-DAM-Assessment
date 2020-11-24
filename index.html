@@ -35,7 +35,7 @@ body {
     top: -118px;
 }
 
-.box {
+.box1 {
     position: relative;
     left: 0px;
     top: -126px;
@@ -77,6 +77,84 @@ body {
     padding-right: 90px;
 }
 
+.box2 {
+    position: relative;
+    left: 0px;
+    top: -45px;
+}
+
+.customer {
+    position: relative;
+    left: 460px;
+    top: -102.5px;
+}
+
+.black {
+    position: relative;
+    top: -89px;
+}
+
+form {
+    position: relative;
+    top: -900px;
+    left: 325px;
+}
+
+input[type=text] {
+    position: relative;
+    top: -45px;
+    width: 50%;
+    padding: 10px 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    border: 0px;
+    margin: 20px 0px;
+}
+
+.name {
+    position: relative;
+    top: -35px;
+    left: 315px;
+}
+
+.phone {
+    position: relative;
+    top: -35px;
+    left: 315px;
+}
+
+.email {
+    position: relative;
+    top: -35px;
+    left: 315px;
+}
+
+.feedback {
+    position: relative;
+    top: -30px;
+    left: 290px;
+}
+
+#message {
+   width: 50%;
+   padding: 10px 10px;
+   font-size: 20px;
+   font-weight: bolder;
+   border: 0px;
+   margin: 10px 0px;
+   height: 250px;
+   overflow: auto;
+   resize: none;
+   position: relative;
+   top: -30px;
+}
+
+.submitbutton {
+    position: relative;
+    top: -5px;
+    left: 255px;
+}
+
 </style>
 
 <body>
@@ -93,7 +171,7 @@ body {
     </div>
 
     <div id="shopping">
-        <img src="Box.png" class="box" width="px" height="70px">
+        <img src="Box.png" class="box1" width="px" height="70px">
         <img src="Shopping.png" class="shopping" width="15%" height="15%">
     </div>
 
@@ -113,6 +191,24 @@ body {
         <img src="Mecca.png" width="px" height="px">
         <img src="H&M.png" width="px" height="px">
         <img src="Swarovski.png" width="px" height="px">
+    </div>
+
+    <div id="feedback">
+        <img src="Box.png" class="box2" width="px" height="70px">
+        <img src="Customer.png" class="customer" width="32.5%" height="32.5%">
+        <img src="Black.png" class="black" width="px" height="px">
+
+        <form>
+            <img src="Name.png" class="name" width="6%" height="6%"><br>
+            <input type="text"><br>
+            <img src="Phone.png" class="phone" width="6%" height="6%"><br>
+            <input type="text"><br>
+            <img src="Email.png" class="email" width="6%" height="6%"><br>
+            <input type="text"><br>
+            <img src="Feedback.png" class="feedback" width="10%" height="10%"><br>
+            <textarea id="message"></textarea><br>
+            <input type="image" src="Submit.png" class="submitbutton" value="Submit" width="14%" height="14%">
+        </form>
     </div>
 
 </body>
